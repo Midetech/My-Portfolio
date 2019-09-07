@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lexend+Zetta|Roboto+Slab:700&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  background-color:#24252a;
+
+ 
+}
+body{
+    color: white;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-family: 'Arvo', serif;
+    font-family: 'Roboto Slab', serif;
+    background-color:#24252a;
+   
+}
+
+
+li, a, button{
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:16px;
+  color:#edf0f1;
+  text-decoration:none;
+}
+
+header{
+  display:flex;
+ justify-content:space-between; 
+ /* position: fixed; */
+  align-items:center;
+  padding: 30px 10%;
+  top: 0;
+  right: 0;
+}
+
+.logo{
+  cursor:pointer;
+  width:40px;
+  margin-right:auto;
+  border-radius: 100%;
+  
+}
+
+.nav_links{
+  list-style:none;
+}
+
+.nav_links li{
+  display:inline-block;
+  padding:0px 20px;
+}
+
+.nav_links li a{
+  transition:all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color:#0088a9;
+}
+
+button{
+  margin-left:20px;
+  padding:9px 25px;
+  background-color:rgba(0, 136, 169, 1);
+  border:none;
+  border-radius:50px;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:rgba(0, 136, 169, 0.8);
+}
+
+h3{
+    margin-left: 60px;
+}
+
+.intro{
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+.projects{
+     margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.progress{
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.skills span{
+    margin-left: 60px;
+}
+
+
+
+.social{
+    text-align: center;
+    
+}
+.fab{
+    padding: 30px;
+    text-align: center;
+    /* margin:30px; */
+}
+.copy{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+hr{
+    background-color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 0;
+
+}
+
+a:hover{
+    color: white;
+}
+
+.social a{
+    text-align: center;
+    font-size: 25px;
+}
+
+a:visited{
+    color:white;
+}
